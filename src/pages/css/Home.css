@@ -1,0 +1,77 @@
+.studio .container {
+    position: relative;
+    background-image: url("../../assets/foring-fon.svg");
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+
+    text-align: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.studio .container h1 {
+    display: inline-block;
+    /* background-color: red; */
+    width: 45%;
+    color: #fff;
+    font-size: 44px;
+    margin-bottom: 60px;
+}
+
+.foring p {
+    padding: 25px 40px;
+    background-color: #24242440;
+    display: inline-block;
+    border-radius: 18px;
+    color: #98989A;
+    font-size: 20px;
+    border: 2px solid #262626;
+}
+
+.foring p span {
+    background-color: #262626;
+    padding: 8px 10px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.hologramma {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.buttons {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #333333;
+    padding: 18px 28px;
+    border-radius: 10px;
+}
+
+.buttons .contact-us-link {
+    background-color: #9EFF00;
+    color: #262626;
+}
+
+.trusted {
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+    border-radius: 100px;
+    color: #fff;
+    position: absolute;
+    padding: 20px 34px;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
